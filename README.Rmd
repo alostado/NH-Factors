@@ -2,7 +2,7 @@
 title: "README"
 author: "Alex Lostado"
 #date: "1/16/2021"
-output: html_document
+output: pdf_document
 ---
 
 
@@ -22,12 +22,7 @@ output: html_document
 
 What follows is a technical detail of the computations run by the aforementioned factor models. 
 
-### Setup
-
-Let $r_{i,t}$ represent the (monthly) return of fund $i \in \{1, \dots, N\}$ on month $t$. Let $\mathcal{T}_i$ be the set of months for which there is data on fund $i$, so that $t \in \mathcal{T}_i$. Funds are given labels or classifications depending on their characteristics. $\mathcal{I}_k$ denotes the set of funds belonging to group/classification $k$, with $k \in \mathcal{K}$, so that $i \in I_k$ if fund $i$ is classified as $k$. Then, $\cup_{k\in\mathcal{K}} \mathcal{I}_k = \{1, \dots, N\}$. 
-
-
-### General Factor Models
+Let $r_{i,t}$ represent the (monthly) return of fund $i \in \{1, \dots, N\}$ on month $t$.
 
 A factor model is a relation of the following kind:
 $$
